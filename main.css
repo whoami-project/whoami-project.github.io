@@ -1,0 +1,65 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+}
+
+body {
+    background-image: url("./image/BACKGROUND_JOGO_WHOAMI.png");
+    color: white;
+    height: 800px;
+}
+
+.content {
+    width: 900px;
+}
+
+h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 2px 2px #ff0000;
+}
+
+h3 {
+    padding: 20px;
+    font-size: 16px;
+    text-shadow: 2px 2px #dd0000;
+}
+
+h5 {
+    padding: 20px;
+    font-size: 13px;
+    text-shadow: 2px 2px #1098e7;
+}
+
+li {
+    padding: 5px;
+    font-size: 10px;
+    text-shadow: 2px 2px #645f5f;
+}
+
+p {
+    padding-left: 30px;
+    font-size: 10px;
+    line-height: 20px;
+    text-shadow: 2px 2px #363333;
+}
+
+.tela {
+    width: 900px;
+
+}
+
+img {
+    width: 500px;
+    height: 333px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rodape p {
+    font-size: 8px;
+    text-align: center;
+}

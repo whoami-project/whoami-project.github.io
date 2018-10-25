@@ -1,42 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>WHOAMI</title>
-    <link rel="stylesheet" type="text/css" href="css/grid.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <style>
-
-
-    </style>
-    <script src="js/scripts.js"></script>
-
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 
 <body>
-    <audio id="sonsText">
-        <source src="sons/textArea.wav" type="audio/mpeg">
-    </audio>
-    <audio id="sonsButton">
-        <source src="sons/button.wav" type="audio/mpeg">
-    </audio>
-
-
-    <div class="displayLogin">
-        <h1>WHOAMI</h1>
-        <form>
-            <label for="txtNome">Nome</label>
-            <input type="text" name="nome" id="txtNome" maxlength="40" onfocus="playAudio('sonsText')" onblur="pauseAudio('sonsText')">
-            <label for="txtSenha">Senha</label>
-            <input type="password" name="senha" id="txtSenha" maxlength="20" onfocus="playAudio('sonsText')" onblur="pauseAudio('sonsText')">
-            <label class="saveSenha"> <input type="radio"> Salvar minha senha.</label>
-            <div class="validBut">
-                <input type="button" value="Entrar" onclick="validar()" onfocus="playAudio('sonsButton')" onblur="pauseAudio('sonsButton')">
-                <a href="cadastro.html" target="_self"> <input type="button" value="Cadastrar">
-                </a>
-            </div>
-        </form>
+    <div class="content">
+        <h1>PROJETO INTEGRADOR II</h1>
+        <h3>TEMA DO PROJETO: WHOAMI</h3>
+        <h3>INTEGRANTES</h3>
+        <ul>
+            <li>Cleber Evangelista Azevedo</li>
+            <li>Wanderson Guilherme de Moura Oliveira</li>
+            <li>Tiago Marques Nunes</li>
+        </ul>
+        <h3>
+            OBJETIVO
+        </h3>
+        <p>O jogo consiste em um jogo de adivinhação.</p>
+        <p> O usuário neste jogo terá que descobrir através de dicas que serão disparadas de forma aleatória, o nome de
+            uma personalidade ou um local ou um objeto .</p>
+        <h3>
+            NÍVEIS DE DIFICULDADE
+        </h3>
+        <p>O jogo terá 3 níveis de dificuldade.</p>
+        <br>
+        <p>Os níveis serão:</p>
+        <br>
+        <ul>
+            <li>NORMAL</li>
+            <li>HARD</li>
+            <li>EXPERT</li>
+            <br>
+        </ul>
+        <p>A cada dificuldade terá aumento no número de dicas e dificuldade das mesmas.</p>
+        <p>A dificuldade mais fácil no nível NORMAL, depois haverá um aumento na dificuldade no Nível HARD e por final
+            no nível EXPERT o nível mais difícil. </p>
+        <h3>
+            RANKING
+        </h3>
+        <p>A estrutura de ranking terá como informação o NOME do Usuario, o NÍVEL que o Usuário escolheu e o SCORE que
+            o usuário consiguiu no game</p>
+        <h5>USUÁRIO NÍVEL SCORE</h5>
+        <h3>
+            JOGABILIDADE
+        </h3>
+        <p>O jogo se inícia com as opções de START e MENU</p>
+        <div class tela>
+            <img src="image/TELA 1_WHOAMI.png" alt="Tela Inicial">
+        </div>
+        <p>Após clicar em START o jogo irá fornecer uma tela de login para que o USUÁRIO se cadastre para assim fazer
+            parte do RANKING do jogo </p>
+        <div class tela>
+            <img src="image/TELA 7_WHOAMI.png" alt="Tela Login">
+        </div>
+        <p>Após o cadastro na tela de login o USUÁRIO ira escolher o NÍVEL DE DIFICULDADE que o USUÁRIO deseja.</p>
+        <div class tela>
+            <img src="image/TELA 2 WOAMI.png" alt="Tela Nível de Dificuldade">
+        </div>
+        <p>Após um efeito de transformação do nome do jogo WHOAMI em QUEM EU SOU, o jogo abrirá o SCORE e iniciará as DICAS para que o USUÁRIO comece a tentar descobrir a identidade do OBJETO ou PERSONALIDADE ou LOCAL</p>
+        <div class tela>
+            <img src="image/TELA 6_WHOAMI.png" alt="Tela do JOGO">
+        </div>
+        <p>Quando o USUÁRIO iníciar o palpite, através da primeira letra que o USUÁRIO digitar, o JOGO irá disponibilizar várias palavras para que o USUÁRIO possa escolhar uma como sua opção. Assim fixando um modelo padrão de mascará para resposta. </p>
+        <p>Através do palpite do USUÁRIO o jogo também procura de forma aleatória mas procura algo próximo do palpite citado pelo USUÁRIO.</p>
+        <p>O USUÁRIO começa com um SCORE fechado com o valor TOTAL de pontos e a cada dica dada esse SCORE subtrai e caso o USUÁRIO não consigue descobrir o que é com todas as dicas dadas o USUÁRIO terminará com zero .</p>
+        <p>A cada vez que o USUÁRIO tenta descobrir uma nova identidade de uma PERSONALIDADE ou OBJETO ou LOCAL, o USUÁRIO acumula pontos em seu RANKING e também é inserido no RANKING o último NÍVEL DE DIFICULDADE que o USUÁRIO jogou.
+            <p>No RANKING é inserido USUÁRIO, último NÍVEL DE DIFICULDADE que o USUÁRIO jogou e SCORE acumulado pelo USUÁRIO.</p>
+        </p>
+        <div class tela>
+            <img src="image/TELA 8_WHOAMI.png" alt="Tela RANKING">
+        </div>
+        <p>Essa é a idéia inicia do jogo mas iremos melhorar mais ele ao decorrer do semestre. </p>
+        <p>Agradecemos sua atenção Wilton.</p>
+    </div>
+    <br>
+    <br>
+    <h1>THE END</h1>
+    </div>
+    <div class="rodape">
+        <p>®spot2018</p>
     </div>
 </body>
 
