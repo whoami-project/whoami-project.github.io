@@ -1,0 +1,132 @@
+@keyframes titleGameIni {
+    0% {
+        font-size: 0px;
+        text-shadow: 4px 3px rgb(3, 0, 207);
+    }
+
+    25% {
+        font-size: 190px;
+        text-shadow: 4px 3px rgb(100, 0, 182);
+    }
+
+    50% {
+        font-size: 0px;
+        text-shadow: 4px 3px rgb(255, 0, 200);
+        padding-bottom: 20px;
+    }
+
+    75% {
+        font-size: 120px;
+        text-shadow: 4px 5px rgb(245, 0, 0);
+        padding-bottom: 100px;
+    }
+
+    100% {
+        font-size: 120px;
+        text-shadow: 4px 5px rgb(245, 0, 0);
+        padding-bottom: 100px;
+    }
+}
+
+@keyframes titleGameFix {
+    0% {
+        text-shadow: 4px 3px rgb(207, 0, 0);
+    }
+
+    12.5% {
+        text-shadow: 4px 3px rgb(207, 117, 0);
+    }
+
+    25% {
+        text-shadow: 4px 3px rgb(207, 176, 0);
+    }
+
+    37.5% {
+        text-shadow: 4px 3px rgb(17, 207, 0);
+    }
+
+    50% {
+        text-shadow: 4px 3px rgb(0, 207, 207);
+    }
+
+    62.5% {
+        text-shadow: 4px 3px rgb(0, 14, 207);
+    }
+
+    75% {
+        text-shadow: 4px 3px rgb(124, 0, 207);
+    }
+
+    87.5% {
+        text-shadow: 4px 3px rgb(207, 0, 179);
+    }
+
+    100% {
+        text-shadow: 4px 3px rgb(207, 0, 0);
+    }
+
+}
+
+@keyframes change {
+    0% {
+        background-color: black;
+    }
+
+    25% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: black;
+    }
+
+    75% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: black;
+    }
+}
+
+@keyframes letterMove {
+    10% {
+        transform: translateX(3px) rotate(2deg);
+    }
+
+    20% {
+        transform: translateX(-3px) rotate(-2deg);
+    }
+
+    30% {
+        transform: translateX(3px) rotate(2deg);
+    }
+
+    40% {
+        transform: translateX(-3px) rotate(-2deg);
+    }
+
+    50% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    60% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    70% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    80% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    90% {
+        transform: translateX(1px) rotate(0);
+    }
+
+    100% {
+        transform: translateX(-1px) rotate(0);
+    }
+}

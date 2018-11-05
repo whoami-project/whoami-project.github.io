@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WHOAMI</title>
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/keyframes.css">
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <audio id="sonsText">
+        <source src="sons/textArea.wav" type="audio/mpeg">
+    </audio>
+    <audio id="sonsButton">
+        <source src="sons/button.wav" type="audio/mpeg">
+    </audio>
+
+    <div class="displayCadastro">
+        <h1>WHOAMI</h1>
+        <h2>CADASTRO</h2>
+        <form>
+
+            <label>
+                <div class="infCad"> Nome de Usuário: </div> <input type="text" name="nomeUsuario" id="txtNomeUsuario"
+                    onfocus="playAudio('sonsText')" onblur="pauseAudio('sonsText')">
+            </label>
+            <label>
+                <div class="infCad"> Email: </div> <input type="email" name="emailUsuario" id="txtEmailUsuario" onfocus="playAudio('sonsText')"
+                    onblur="pauseAudio('sonsText')" onblur="pauseAudio('sonsText')">
+            </label>
+            <label>
+                <div class="infCad"> Senha: </div><input type="password" name="senhaUsuario" id="txtSenhaUsuario"
+                    onfocus="playAudio('sonsText')" onblur="pauseAudio('sonsText')">
+            </label>
+            <label>
+                <div class="infCad"> Confirme sua senha: </div> <input type="password" name="confSenhaUsuario" id="txtConfSenhaUsuario"
+                    onfocus="playAudio('sonsText')" onblur="pauseAudio('sonsText')">
+            </label>
+            <input type="button" value="Confirmar" id="confirmar" onclick="validarCadastro()" onfocus="playAudio('sonsButton')"
+                onblur="pauseAudio('sonsButton')">
+            <input type="reset" value="Limpar" id="limpar" onfocus="playAudio('sonsButton')" onblur="pauseAudio('sonsButton')">
+        </form>
+
+    </div>
+</body>
+
+</html>

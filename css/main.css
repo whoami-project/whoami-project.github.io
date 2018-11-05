@@ -1,0 +1,188 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    margin: 0;
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url("/image/stars.png");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titleGameIni {
+    font-size: 120px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    animation: titleGameIni;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    color: white;
+    text-shadow: 4px 3px red;
+    padding-bottom: 100px;
+
+}
+
+.titleGameFix {
+    font-size: 120px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-shadow: 4px 3px red;
+    animation: 5s 1s titleGameFix linear infinite;
+    padding-bottom: 100px;
+
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+    padding: 10px;
+    text-shadow: 2px 2px rgb(83, 83, 83);
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(209, 209, 209);
+    padding: 20px;
+    text-shadow: 2px 2px rgb(243, 9, 9);
+}
+.pressStartClick {
+    color: rgb(0, 240, 240);
+    text-shadow: 2px 1px white;
+    padding-bottom: 50px;
+}
+
+.displayCadastro {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: #75757544;
+    padding: 20px 10px 40px 10px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.displayLogin {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: #75757544;
+    padding: 25px 10px 50px 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.infCad {
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(0, 255, 255);
+    text-shadow: 3px 2px #757575;
+    font-size: 15px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 65%;
+    display: block;
+    margin: auto;
+    outline: 0;
+    height: 20px;
+
+}
+
+input[type="button"],
+[type="reset"] {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+    background-color: rgba(0, 255, 255, 0.87);
+    box-shadow: 0 7px 0 #003b3b;
+    transition: 0.01s;
+}
+
+input[type="checkbox"] {
+    margin-right: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.saveSenha {
+    margin: auto;
+    text-align: center;
+    font-size: 8px;
+    text-shadow: none;
+    color: white;
+    display: table;
+    background-color: #75757544;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+
+
+body {
+    animation: change 10s linear infinite;
+}
+
+back:hover {
+    background-color: aqua;
+}
+
+input[type="button"]:hover,
+[type="reset"]:hover {
+    animation: letterMove;
+    animation-duration: 0.75s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    letter-spacing: 3px;
+    transition: 0.01s;
+    color: white;
+    text-shadow: 2px 2px rgb(29, 29, 29);
+    box-shadow: 0 7px 0 #003b3b;
+    background-color: rgb(0, 133, 133);
+}
+
+input[type="button"]:active,
+[type="reset"]:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+    transition: 0.01s;
+}

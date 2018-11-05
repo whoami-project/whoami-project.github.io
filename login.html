@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WHOAMI</title>
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/keyframes.css">
+    <script src="js/scripts.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon_w.png">
+
+</head>
+
+<body>
+    <audio id="sonsText">
+        <source src="sons/textArea.wav" type="audio/mpeg">
+    </audio>
+    <audio id="sonsButton">
+        <source src="sons/button.wav" type="audio/mpeg">
+    </audio>
+
+
+    <div class="displayLogin">
+        <h1>WHOAMI</h1>
+        <form>
+            <label for="txtNome">Nome</label>
+            <input type="text" name="nome" id="txtNome" maxlength="40" onfocus="playAudio('sonsText')" onblur="pauseAudio('sonsText')">
+            <label for="txtSenha">Senha</label>
+            <input type="password" name="senha" id="txtSenha" maxlength="20" onfocus="playAudio('sonsText')" onblur="pauseAudio('sonsText')">
+            <label class="saveSenha"> <input type="radio"> Salvar minha senha.</label>
+            <div class="validBut">
+                <input type="button" value="Entrar" onclick="validar()" onfocus="playAudio('sonsButton')" onblur="pauseAudio('sonsButton')">
+                <a href="cadastro.html" target="_self"> <input type="button" value="Cadastrar">
+                </a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
